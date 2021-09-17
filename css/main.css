@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Georgia", sans-serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -27,7 +27,8 @@ body {
     "banner banner"
     "col1 col2";
   gap: 1rem;
-  margin: 1rem;
+  margin: 0;
+  padding: 1rem;
 }
 
 header h1 {
@@ -48,12 +49,11 @@ header nav {
   grid-area: banner;
   grid-column: 2;
   align-items: baseline;
-
 }
 
 ul {
   padding: 0;
-  margin: 0;
+  margin: 1rem 0;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -64,6 +64,7 @@ a {
   color: #fff;
   font-size: 2rem;
 }
+
 main {
   display: contents;
 }
